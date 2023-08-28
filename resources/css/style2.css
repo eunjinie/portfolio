@@ -17,9 +17,9 @@ img {
     max-width: 100%;
 }
 
-/* ---------------header--------------- */
-/* .first-screen {
-    height: 100vh;
+/* #home {
+    width: 1980px;
+    height: 1080px;
 } */
 
 .wrapper {
@@ -33,17 +33,6 @@ img {
     justify-content: space-between;
     margin-bottom:50px;
 }
-
-/* .first-screen-flexbox {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-} */
-
-/* .first-screen-flexbox > *{
-    flex-grow: 0;
-    flex-shrink: 0;
-} */
 
 .logo {
     width: 210px;
@@ -80,72 +69,50 @@ img {
     text-align: center;
 }
 
+/* ----------------main content--------------- */
+
 
 .home-content {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     gap: 1em;
 }
 
-.test1 {
-    width: 30%;
-    margin-left: 10%;
-}
 
-
-
-/* -----------------------1---------------------- */
+/* ---------------------1-------------------------- */
 
 .comment-monitor {
-    column-width: 80rem;
-    
+    width: 40%;
 }
 
-.comment {
+.comment-on {
     font-family: 'Do Hyeon', sans-serif;
-    font-size: 2.5rem;
-    margin-top: 50%;
-    margin-left: 20%;
+    font-size: 3.5rem;
+    margin-top: 30%;
 }
 
-/* ----------------------2--------------------------------- */
+/* -------------------2----------------------------- */
+.introduce-text {
+    width: 50%;
+    margin-left:5%;
+}
 
-.text {
-    flex-wrap:wrap;
+.text-at {
+    font-size: 1.8rem;
+    font-weight: 700;
+    /* font-family: 'Dongle', sans-serif; */
+    margin-top: 30%;
+}
+
+
+/* -------------------3----------------------------- */
+
+.main-monitor-wrapper {
+    position: relative;
     
 }
-
-.introduce {
-    font-size: 3rem;
-    font-weight: 500;
-    font-family: 'Dongle', sans-serif;
-} 
-
-
- /* -----------------------3---------------------- */
-.main-monitor-wrapper {
-    display: flex;
-}
-
-
-/* .page-header {
-    display: flex;
-    justify-content: space-between;
-} */
-
-/* ---------------main content---------------*/
-/* .home-content {
-    height: 84vh;
-}
-
-.monitor {
-    position: relative;
-    top: 200px;
-    left: 180px;
-}
-
 
 .item {
     width: 50px;
@@ -153,54 +120,51 @@ img {
     display: inline-block;
 }
 
+.items {
+    position : absolute;
+    margin-top : -70%;
+    margin-left : 10%;
+}
+
 .move-to-skills {
     color: #BC6666;
     font-weight: 500;
-    font-size: 32px;
-    position: relative;
-    top: -10px;
-    left: 300px;
-    width: fit-content;
+    font-size: 40px;
 }
 
 .move-to-skills :hover {
     color: #eed89e;
 }
 
-*/
 
-/* ------------------------------------------------------------------------------------------ */
+.link-to-skills {
+    position : absolute;
+    margin-top : -42%;
+    margin-left : 28%;   
+}
 
-/* .title {
-    font-family: 'Do Hyeon', sans-serif;
-    font-weight: 900;
-    font-size: 5.5rem;
-    line-height: 130px;
-    letter-spacing: 0.3cm;
-    margin-left: 150px;
-} */
-
+/* -----------------------4---------------------- */
 /* .maintext-wrap {
-    display: flex; 
-    line-height: 1;
+    display: flex;
+    flex-direction: column;
 } */
-/* ---------------------------------------------------------------------------------------------- */
-/* .title1 {
+
+.title1 {
     font-family: 'Do Hyeon', sans-serif;
     font-weight: 900;
-    font-size: 5.5rem;
+    font-size: 7rem;
     color : #D29898;
     letter-spacing: 0.3cm;
-    margin-left: 150px;
+    margin-left: 200px;
     width: 7ch;
     animation: typing 1.7s steps(6), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid;
-    line-height: 1;
-  }
-  
-  @keyframes typing {
+    line-height: 1.5;
+}
+
+@keyframes typing {
     from {
       width: 0;
     }
@@ -212,30 +176,163 @@ img {
     }
   }
 
-
-  .title2 {
+.title2 {
     font-family: 'Do Hyeon', sans-serif;
     font-weight: 900;
-    font-size: 5.5rem;
+    font-size: 7rem;
     color : #D29898;
     letter-spacing: 0.3cm;
-    margin-left: 150px;
+    margin-left: 200px;
     width: 11ch;
-    animation: typing 2s steps(9), blink .5s step-end infinite alternate;
+    animation: typing 3s steps(9), blink .8s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid;
-    line-height: 1;
-  }
-  
-  @keyframes typing {
+    line-height: 1.5;
+}  
+
+@keyframes typing {
     from {
-      width: 0
+      width: 0;
     }
   }
       
   @keyframes blink {
-    20% {
-      border-color: transparent
+    0% {
+      border-color: transparent;
     }
-  } */
+  }
+
+  /* ----------------------About Me---------------------- */
+  .second-Header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:50px;
+}
+
+.Header-module-contents-text {
+    display: flex;
+    flex-direction: row;
+    margin-top : 45px;
+}
+
+.backhome-img {
+    width : 2rem;
+    height : 2rem;
+    margin-top : 10px;
+}
+
+.page-title {
+    font-size: 1.5rem;
+    color: #746B6B;
+}
+
+/* ----------------------second page content------------------------- */
+
+.second-screen-content {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: 50%;
+    margin-bottom : 10px;
+}
+
+.second-content-one {
+    background-color: rgba(166, 154, 167, 0.16);
+    border-radius: 5%;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.Idimg {
+    width : 50%;
+    height: 20%;
+    margin-top: 15%;
+    margin-right : 15%;
+    margin-left : 25%;
+}
+
+.intro-items {
+    margin-left : 25%;
+}
+
+
+.intro-img {
+    width: 32px;
+    height: 32px;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.intro {
+    display: flex;
+    margin-bottom : 10px;
+}
+
+.My {
+    color: #292323;
+}
+
+.item-git :hover {
+    color: #D29898;
+}
+
+/* -----------------------second-page---item--second------------------ */
+.values-text {
+    background-color: rgba(200, 167, 118, 0.317);
+    border-radius: 5%;
+    width: 600px;
+    height: 720px;
+}
+
+/* -------------------footer-------------------------- */
+footer {
+    background-color: #eed89e;
+    text-align: center;
+    padding: 0 26px;
+}
+
+footer p {
+    color: #746B6B;
+}
+
+/* ----------------------------skills page------------------ */
+/* .skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+.chart-class {
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+}
+
+.progresscharts {
+    width: 40%;
+    height: 15%;
+}
+
+.division {
+    display: flex;
+    margin-left: 12rem;
+}
+
+.third-content-title {
+    font-family: 'Dongle', sans-serif;
+    font-size: 40px;
+    margin-top: 10rem;
+    margin-left: 23rem;
+}
+
+.subjectprogress {
+    font-family: 'Dongle', sans-serif;
+    font-size: 32px;
+    display: inline-block;
+    width: 7rem;
+}
+
+
+
+
