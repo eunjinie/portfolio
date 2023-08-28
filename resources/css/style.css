@@ -1,25 +1,29 @@
-@charset "UTF-8";   
+@charset "UTF-8";
 
 html {
-    font-size : 100%;
+    font-size: 100%;
 }
 
 body {
-    color : black;
+    color: black;
     line-height: 2.0;
 }
 
 a {
-    text-decoration : none;
+    text-decoration: none;
 }
 
 img {
-    max-width : 100%;
+    max-width: 100%;
 }
 
 /* ---------------header--------------- */
+.first-screen {
+    height: 100vh;
+}
+
 .logo {
-    width : 210px;
+    width: 210px;
     margin-top: 18px;
 }
 
@@ -27,20 +31,28 @@ img {
 .main-nav {
     display: flex;
     list-style-type: none;
-    font-size : 1.25rem;
+    font-size: 1.25rem;
     margin-top: 40px;
 }
 
-.main-nav li {
-    margin-left : 36px;
+.main-nav a {
+    color: #746B6B;
 }
 
 .main-nav a {
-    color : #746B6B;
+    background-image: linear-gradient(120deg, #ffffbb 0%, #d9ffd8);
+    background-repeat: no-repeat;
+    background-size: 100% 0%;
+    background-position: 0 91%;
+    transition: 0.3s ease-in;
 }
 
 .main-nav a:hover {
-    color : #BC6666;
+    background-size: 100% 50%;
+}
+
+.main-nav li {
+    margin-left: 36px;
 }
 
 .page-header {
@@ -49,24 +61,25 @@ img {
 }
 
 .wrapper {
-    max-width: 1100px;
-    margin : 0 auto;
-    padding : 0 4%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 4%;
 }
 
 /* ---------------main content---------------*/
 .home-content {
-    height: 100%;
+    height: 84vh;
 }
 
 .monitor {
-    position : relative;
-    top : 260px;
-    left : 100px;
+    position: relative;
+    top: 200px;
+    left: 180px;
 }
 
 .comment {
     font-family: 'Do Hyeon', sans-serif;
+    font-size: 2.5rem;
 }
 
 .item {
@@ -74,52 +87,116 @@ img {
     height: 50px;
     display: inline-block;
     position: relative;
-    left:140px;
+    top: -80px;
+    left: 220px;
 }
 
 .move-to-skills {
     color: #BC6666;
     font-weight: 500;
-    font-size : 32px;
-    position : relative;
-    top : 45px;
-    left : 220px;
+    font-size: 32px;
+    position: relative;
+    top: -10px;
+    left: 300px;
     width: fit-content;
 }
 
 .move-to-skills :hover {
-    color : #eed89e;
+    color: #eed89e;
 }
 
 .text {
-    position :relative;
-    top : -260px;
-    left : 550px;
+    position: relative;
+    top: -260px;
+    left: 550px;
     width: fit-content;
 }
 
 .introduce {
-    font-weight: lighter;
-    margin-bottom: 10px;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-left: 150px;
+    margin-top: -120px;
+    font-family: 'Dongle', sans-serif;
 }
 
-.title {
+/* .title {
     font-family: 'Do Hyeon', sans-serif;
-    font-weight : 900;
-    font-size: 5rem;
+    font-weight: 900;
+    font-size: 5.5rem;
     line-height: 130px;
     letter-spacing: 0.3cm;
-}
+    margin-left: 150px;
+} */
 
+/* .maintext-wrap {
+    display: flex; 
+    line-height: 1;
+} */
+
+.title1 {
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 900;
+    font-size: 5.5rem;
+    color : #D29898;
+    letter-spacing: 0.3cm;
+    margin-left: 150px;
+    width: 7ch;
+    animation: typing 1.7s steps(6), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    line-height: 1;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+      
+  @keyframes blink {
+    100% {
+      border-color: transparent
+    }
+  }
+
+
+  .title2 {
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 900;
+    font-size: 5.5rem;
+    color : #D29898;
+    letter-spacing: 0.3cm;
+    margin-left: 150px;
+    width: 11ch;
+    animation: typing 2s steps(9), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    line-height: 1;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    20% {
+      border-color: transparent
+    }
+  }
 /* ---------------About Me--------------- */
 .all-Header-module {
-    margin-top : 65px;
-    margin-bottom : 65px;
+    margin-top: 65px;
+    margin-bottom: 65px;
 }
 
 .Header-module-up-line {
     height: 2.5px;
-    border : 0px;
+    border: 0px;
     background-color: #746B6B;
 }
 
@@ -129,17 +206,17 @@ img {
 }
 
 .Header-module-contents-text {
-    color:#746B6B;
+    color: #746B6B;
     display: inline-flex;
     margin-left: 3rem;
 }
 
 .Header-module-currentpagename {
-    color: #746B6B; 
+    color: #746B6B;
 }
 
 .list-img {
-    margin-right : 3rem;
+    margin-right: 3rem;
     height: 1.2rem;
     margin-top: 0.4rem;
 }
@@ -148,16 +225,17 @@ img {
 .second-screen-content-wrap {
     margin-bottom: 140px;
 }
+
 .second-screen-content {
-    position : relative;
+    position: relative;
     background-color: rgba(166, 154, 167, 0.16);
     width: 900px;
     height: 500px;
 }
 
 .IDpicture {
-    position : absolute;
-    top: 65px; 
+    position: absolute;
+    top: 65px;
     left: 130px;
     width: 270px;
     height: 370px;
@@ -165,8 +243,8 @@ img {
 
 .intro-items {
     position: absolute;
-    top : 20%;
-    left : 50%;
+    top: 20%;
+    left: 50%;
 }
 
 .intro-img {
@@ -178,25 +256,25 @@ img {
 
 .intro {
     display: flex;
-    margin-bottom : 30px;
+    margin-bottom: 30px;
 }
 
 .My {
-    color : #292323;
+    color: #292323;
 }
 
 .item-git :hover {
-    color : #eed89e;
+    color: #eed89e;
 }
 
 footer {
     background-color: #FFFAFA;
-    text-align:center;
-    padding : 10px 0;
+    text-align: center;
+    padding: 10px 0;
 }
 
 footer p {
-    color : #746B6B;
+    color: #746B6B;
 }
 
 /* ---------------Skills------------------- */
@@ -208,35 +286,37 @@ footer p {
 
 .division {
     display: flex;
-    margin-left : 12rem;
+    margin-left: 12rem;
 }
 
 .third-content-title {
     font-family: 'Dongle', sans-serif;
-    font-size : 40px;
+    font-size: 40px;
     margin-top: 10rem;
     margin-left: 23rem;
 }
 
 .subjectprogress {
     font-family: 'Dongle', sans-serif;
-    font-size : 32px;
+    font-size: 32px;
     display: inline-block;
     width: 7rem;
 }
 
 /*  ---------------Projects-------------------  */
-.project-explain{
+.project-explain {
     background: rgba(166, 154, 167, 0.16);
     border-radius: 100px;
     width: 30rem;
     height: 40rem;
     position: relative;
-  }
+}
 
 .explain {
-    position:absolute;
-    margin-top : 4.5rem;
+    position: absolute;
+    margin-top: 4.5rem;
 }
+
+
 
 

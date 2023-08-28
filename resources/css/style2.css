@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    color: black;
+    line-height: 2.0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ---------------header--------------- */
+/* .first-screen {
+    height: 100vh;
+} */
+
+.wrapper {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:50px;
+}
+
+/* .first-screen-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+} */
+
+/* .first-screen-flexbox > *{
+    flex-grow: 0;
+    flex-shrink: 0;
+} */
+
+.logo {
+    width: 210px;
+    margin-top: 18px;
+}
+
+/* ---------------nav 메뉴--------------- */
+.main-nav {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
+
+.main-nav a {
+    color: #746B6B;
+}
+
+.main-nav a {
+    background-image: linear-gradient(120deg, #ffffbb 0%, #d9ffd8);
+    background-repeat: no-repeat;
+    background-size: 100% 0%;
+    background-position: 0 91%;
+    transition: 0.3s ease-in;
+}
+
+.main-nav a:hover {
+    background-size: 100% 50%;
+}
+
+.main-nav li {
+    /* margin-left: 36px; */
+    padding: 18px;
+    text-align: center;
+}
+
+
+.home-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5%;
+    gap: 1em;
+}
+
+.test1 {
+    width: 30%;
+    margin-left: 10%;
+}
+
+
+
+/* -----------------------1---------------------- */
+
+.comment-monitor {
+    column-width: 80rem;
+    
+}
+
+.comment {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 2.5rem;
+    margin-top: 50%;
+    margin-left: 20%;
+}
+
+/* ----------------------2--------------------------------- */
+
+.text {
+    flex-wrap:wrap;
+    
+}
+
+.introduce {
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'Dongle', sans-serif;
+} 
+
+
+ /* -----------------------3---------------------- */
+.main-monitor-wrapper {
+    display: flex;
+}
+
+
+/* .page-header {
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* ---------------main content---------------*/
+/* .home-content {
+    height: 84vh;
+}
+
+.monitor {
+    position: relative;
+    top: 200px;
+    left: 180px;
+}
+
+
+.item {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.move-to-skills {
+    color: #BC6666;
+    font-weight: 500;
+    font-size: 32px;
+    position: relative;
+    top: -10px;
+    left: 300px;
+    width: fit-content;
+}
+
+.move-to-skills :hover {
+    color: #eed89e;
+}
+
+*/
+
+/* ------------------------------------------------------------------------------------------ */
+
+/* .title {
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 900;
+    font-size: 5.5rem;
+    line-height: 130px;
+    letter-spacing: 0.3cm;
+    margin-left: 150px;
+} */
+
+/* .maintext-wrap {
+    display: flex; 
+    line-height: 1;
+} */
+/* ---------------------------------------------------------------------------------------------- */
+/* .title1 {
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 900;
+    font-size: 5.5rem;
+    color : #D29898;
+    letter-spacing: 0.3cm;
+    margin-left: 150px;
+    width: 7ch;
+    animation: typing 1.7s steps(6), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    line-height: 1;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+      
+  @keyframes blink {
+    100% {
+      border-color: transparent
+    }
+  }
+
+
+  .title2 {
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 900;
+    font-size: 5.5rem;
+    color : #D29898;
+    letter-spacing: 0.3cm;
+    margin-left: 150px;
+    width: 11ch;
+    animation: typing 2s steps(9), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    line-height: 1;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    20% {
+      border-color: transparent
+    }
+  } */
