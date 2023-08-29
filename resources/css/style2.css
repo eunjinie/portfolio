@@ -31,7 +31,7 @@ img {
 .page-header {
     display: flex;
     justify-content: space-between;
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
 .logo {
@@ -76,7 +76,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 1%;
+    /* margin-bottom: 1%; */
     gap: 1em;
 }
 
@@ -91,19 +91,25 @@ img {
     font-family: 'Do Hyeon', sans-serif;
     font-size: 3.5rem;
     margin-top: 30%;
+    color: #746B6B;
+    height: fit-content;
 }
 
 /* -------------------2----------------------------- */
 .introduce-text {
     width: 50%;
-    margin-left:5%;
+    margin-left: 5%;
+    height: fit-content;
 }
 
 .text-at {
+    color: #746B6B;
     font-size: 1.8rem;
     font-weight: 700;
-    /* font-family: 'Dongle', sans-serif; */
+    font-family: 'Nanum Myeongjo', serif;
     margin-top: 30%;
+    background-color: #f9f6f8;
+    border-radius: 5%;
 }
 
 
@@ -111,7 +117,7 @@ img {
 
 .main-monitor-wrapper {
     position: relative;
-    
+
 }
 
 .item {
@@ -121,9 +127,9 @@ img {
 }
 
 .items {
-    position : absolute;
-    margin-top : -70%;
-    margin-left : 10%;
+    position: absolute;
+    margin-top: -70%;
+    margin-left: 10%;
 }
 
 .move-to-skills {
@@ -138,22 +144,18 @@ img {
 
 
 .link-to-skills {
-    position : absolute;
-    margin-top : -42%;
-    margin-left : 28%;   
+    position: absolute;
+    margin-top: -42%;
+    margin-left: 28%;
 }
 
 /* -----------------------4---------------------- */
-/* .maintext-wrap {
-    display: flex;
-    flex-direction: column;
-} */
 
 .title1 {
     font-family: 'Do Hyeon', sans-serif;
     font-weight: 900;
     font-size: 7rem;
-    color : #D29898;
+    color: #D29898;
     letter-spacing: 0.3cm;
     margin-left: 200px;
     width: 7ch;
@@ -166,65 +168,51 @@ img {
 
 @keyframes typing {
     from {
-      width: 0;
+        width: 0;
     }
-  }
-      
-  @keyframes blink {
+}
+
+@keyframes blink {
     100% {
-      border-color: transparent
+        border-color: transparent
     }
-  }
+}
+
 
 .title2 {
+    margin-top: -7%;
     font-family: 'Do Hyeon', sans-serif;
     font-weight: 900;
     font-size: 7rem;
-    color : #D29898;
+    color: #746B6B;
     letter-spacing: 0.3cm;
     margin-left: 200px;
     width: 11ch;
-    animation: typing 3s steps(9), blink .8s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 2px solid;
-    line-height: 1.5;
-}  
+}
 
-@keyframes typing {
-    from {
-      width: 0;
-    }
-  }
-      
-  @keyframes blink {
-    0% {
-      border-color: transparent;
-    }
-  }
-
-  /* ----------------------About Me---------------------- */
-  .second-Header {
+/* ----------------------About Me---------------------- */
+.second-Header {
     display: flex;
     justify-content: space-between;
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
 .Header-module-contents-text {
     display: flex;
     flex-direction: row;
-    margin-top : 45px;
+    margin-top: 45px;
 }
 
 .backhome-img {
-    width : 2rem;
-    height : 2rem;
-    margin-top : 10px;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 10px;
 }
 
 .page-title {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #746B6B;
+    font-family: 'Dongle', sans-serif;
 }
 
 /* ----------------------second page content------------------------- */
@@ -232,9 +220,9 @@ img {
 .second-screen-content {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     height: 50%;
-    margin-bottom : 10px;
+    margin-bottom: 10px;
 }
 
 .second-content-one {
@@ -245,15 +233,15 @@ img {
 }
 
 .Idimg {
-    width : 50%;
+    width: 50%;
     height: 20%;
     margin-top: 15%;
-    margin-right : 15%;
-    margin-left : 25%;
+    margin-right: 15%;
+    margin-left: 25%;
 }
 
 .intro-items {
-    margin-left : 25%;
+    margin-left: 25%;
 }
 
 
@@ -266,7 +254,7 @@ img {
 
 .intro {
     display: flex;
-    margin-bottom : 10px;
+    margin-bottom: 10px;
 }
 
 .My {
@@ -297,42 +285,125 @@ footer p {
 }
 
 /* ----------------------------skills page------------------ */
-/* .skill {
+/* .third-screen-header {
+    width: 1920px;
+    height: 1080;
+} */
+
+.third-screen-contents {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 0 4%;
+    padding-bottom: 7.5%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.third-screen-flex {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 600px;
+    height: 500px;
+}
+
+.skill {
+    margin-left: 25%;
+    width: 400px;
+}
+
+.chart-name {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+    margin-bottom: 3%;
+}
+
+.chart-title {
+    font-size: 2.0rem;
+    font-weight: 600;
+}
+
+.lisence-title {
+    font-size: 2.0rem;
+    font-weight: 600;
+}
+
+.skill-icon {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 20px;
+    background: #f15b29;
+    transform: rotate(-30deg);
+    border-radius: 10px;
+}
+
+.lisence-list {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 20px;
+    background: #f15b29;
+    transform: rotate(-30deg);
+    border-radius: 10px;
+}
+
+.real-list {
+    color: #746B6B;
+    font-weight: 600;
+    font-size: 2.5rem
+}
+
+/* --------------------------------Projects--------------------------------- */
+.fourth-content-wrapper {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.fourth-common-title {
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 900;
+    font-size: 7rem;
+    text-align: center;
+    margin-top: -7%;
+
+}
+
+.fourth-under-content-wrap {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-} */
-
-.chart-class {
-    display: flex;
-    flex-direction: column;
-    line-height: 10px;
 }
 
-.progresscharts {
-    width: 40%;
-    height: 15%;
+.fourth-content-right {
+    width: 50%;
+    text-align: center;
+    margin-top : 5%;
+    
 }
 
-.division {
-    display: flex;
-    margin-left: 12rem;
+.fourth-content-left {
+    width: 50%;
 }
 
-.third-content-title {
-    font-family: 'Dongle', sans-serif;
-    font-size: 40px;
-    margin-top: 10rem;
-    margin-left: 23rem;
+.project-name {
+    font-size : 3rem;
+    text-decoration: overline 1px black;
+
 }
 
-.subjectprogress {
-    font-family: 'Dongle', sans-serif;
-    font-size: 32px;
-    display: inline-block;
-    width: 7rem;
+.real-monitor-img {
+    border-radius: 5%;
+    border-block-end-style: hidden;
+    
 }
-
-
-
-
