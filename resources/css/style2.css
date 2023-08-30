@@ -215,6 +215,12 @@ img {
     font-family: 'Dongle', sans-serif;
 }
 
+.value-text {
+    padding-top: 5%;
+    padding-left: 3%;
+    font-size: 1.3rem;
+}
+
 /* ----------------------second page content------------------------- */
 
 .second-screen-content {
@@ -222,7 +228,8 @@ img {
     flex-direction: row;
     justify-content: space-between;
     height: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 0.7%;
+
 }
 
 .second-content-one {
@@ -235,7 +242,7 @@ img {
 .Idimg {
     width: 50%;
     height: 20%;
-    margin-top: 15%;
+    margin-top: 11%;
     margin-right: 15%;
     margin-left: 25%;
 }
@@ -259,6 +266,7 @@ img {
 
 .My {
     color: #292323;
+    font-weight: 600;
 }
 
 .item-git :hover {
@@ -270,7 +278,7 @@ img {
     background-color: rgba(200, 167, 118, 0.317);
     border-radius: 5%;
     width: 600px;
-    height: 720px;
+    height: 700px;
 }
 
 /* -------------------footer-------------------------- */
@@ -295,7 +303,7 @@ footer p {
     margin: 0 auto;
     margin-top: 10%;
     padding: 0 4%;
-    padding-bottom: 7.5%;
+    padding-bottom: 4.3%;
 
     display: flex;
     flex-direction: row;
@@ -371,12 +379,83 @@ footer p {
 }
 
 .fourth-common-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title-text {
     font-family: 'Do Hyeon', sans-serif;
+    color:#383030de;
     font-weight: 900;
-    font-size: 7rem;
+    font-size: 8rem;
     text-align: center;
     margin-top: -7%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
+.title-text span {
+        display: inline-block;
+        margin: 0 -.05em;
+        animation: loading 1.8s 2 alternate;
+    }
+
+    loading span:nth-child(2) {
+        animation-delay: .2s;
+    }
+
+    loading span:nth-child(3) {
+        animation-delay: .3s;
+    }
+
+    loading span:nth-child(4) {
+        animation-delay: .4s;
+    }
+
+    loading span:nth-child(5) {
+        animation-delay: .5s;
+    }
+
+    loading span:nth-child(6) {
+        animation-delay: .6s;
+    }
+
+    loading span:nth-child(7) {
+        animation-delay: .7s;
+    }
+
+    @keyframes loading {
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+#arrow-left {
+    width: 25px;
+    height: 24px;
+    margin-top: 15px;
+}
+
+#arrow-left:hover {
+    transform: translate(-15px);
+    background-color: rgba(241, 170, 154, 0.217);
+}
+
+#arrow-right {
+    width: 25px;
+    height: 24px;
+    margin-top: 15px;
+
+}
+
+#arrow-right:hover {
+    transform: translate(15px);
+    background-color: rgba(241, 170, 154, 0.217);
 }
 
 .fourth-under-content-wrap {
@@ -385,19 +464,19 @@ footer p {
     justify-content: space-between;
 }
 
-.fourth-content-right {
-    width: 50%;
+.fourth-content-right2 {
+    width: 45%;
     text-align: center;
-    margin-top : 5%;
-    
+    margin-top: 2%;
+
 }
 
-.fourth-content-left {
-    width: 50%;
+.fourth-content-left1 {
+    width: 45%;
 }
 
 .project-name {
-    font-size : 3rem;
+    font-size: 3rem;
     text-decoration: overline 1px black;
 
 }
@@ -405,5 +484,5 @@ footer p {
 .real-monitor-img {
     border-radius: 5%;
     border-block-end-style: hidden;
-    
+
 }
