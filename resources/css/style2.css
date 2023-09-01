@@ -174,7 +174,7 @@ img {
 
 @keyframes blink {
     100% {
-        border-color: transparent
+        border-color: transparent;
     }
 }
 
